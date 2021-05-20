@@ -1,0 +1,13 @@
+{
+  "name": "test-default-esmj",
+  "version": "1.0.0",
+  "description": "*.js/*.cjs files are treated as CJS modules while *.mjs are treated as ES modules",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "cjs": "node ./src/testCjs.js",
+    "esmjs": "node ./src/testEsm.mjs"
+  },
+  "author": "",
+  "license": "ISC"
+}
