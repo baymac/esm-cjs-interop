@@ -8,8 +8,8 @@ Node >= 13.2.0 (ships with ECMASscript Modules)
 
 If you wish to add ESMJS support to your Common JS node project, you can do it in 2 ways. This repo contains 2 nodejs projects to demonstrates both ways:
 
-1. cjs-default: Demonstrates how to use ES modules in a CJS project (all \*.js files are default treated as CJS). package.json contains `"type": "commonjs"`.
-1. esm-default: Demonstrates how to use CJS modules in a ESMJS project (all \*.js files are default treated as ESMJS). package.json contains `"type": "module"`.
+1. `cjs-default`: Demonstrates how to use ES modules in a CJS project (all \*.js files are default treated as CJS). package.json contains `"type": "commonjs"`.
+1. `esm-default`: Demonstrates how to use CJS modules in a ESMJS project (all \*.js files are default treated as ESMJS). package.json contains `"type": "module"`.
 
 Both projects have 2 test files:
 
