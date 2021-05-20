@@ -1,8 +1,10 @@
 # Node JS ESM and CJS Interop Demo
 
-Pre-requisites:
+## Pre-requisites:
 
 Node >= 13.2.0 (ships with ECMASscript Modules)
+
+## Project Structure
 
 If you wish to add ESMJS support to your Common JS node project, you can do it in 2 ways. This repo contains 2 nodejs projects to demonstrates both ways:
 
@@ -14,7 +16,7 @@ Both projects have 2 test files:
 1. `testCjs` - Written in CJS to show how to load ES modules. Run with `npm run cjs`.
 2. `testEsm` - Written is ESMJS to show how to load CJS modules. Run with `npm run esmjs`
 
-# References
+## References
 
 - https://nodejs.medium.com/announcing-core-node-js-support-for-ecmascript-modules-c5d6dc29b663
 - https://nodejs.org/api/modules.html
