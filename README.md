@@ -1,6 +1,6 @@
 # Node JS ESM and CJS Interop Demo
 
-## Pre-requisites:
+## Pre-requisites
 
 Node >= 13.2.0 (ships with ECMASscript Modules)
 
